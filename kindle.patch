@@ -1,0 +1,8 @@
+--- kindle-python/bin/pydoc3.14
++++ kindle-python/bin/pydoc3.14
+@@ -1,4 +1,4 @@
+-#!/usr/bin/python3.14
++#!/mnt/us/python/bin/python3.14
+ 
+ import pydoc
+ if __name__ == '__main__':
