@@ -4,7 +4,7 @@ It does just that.
 * A jailbroken PW3 (preferrably with winterbreak, that's what I tested it with)
 * Python 3.14 (host)
 * A msul cross-toolchain for the PW3 installed at `~/x-tools/arm-whatever` (you can find mine [here](https://github.com/hackifiery/arm-kindlepw3-linux-musleabi))
-## How to build it
+## How to build it from source
 ### 1. Clone it
 ```sh
 git clone https://github.com/hackifiery/kindlepy
@@ -27,3 +27,5 @@ sudo cp -r kindle-python/ /mnt/kindle/python
 * If you encounter any `cp: cannot create symbolic link '/mnt/kindle/python/bin/[whatever]': Operation not permitted`, safely ignore it; it happens because the `/mnt/us` partition uses the old FAT32, which doesn't support the symlinks python creates.
 ### 5. Run it
 Now, you can just add `/mnt/us/python/bin` to your PATH and run `python3.14` from there.
+## How to use the binaries
+If you're lazy (like me) and don't want to set up a cross-toolchain and all, go to the releases page, extract the archive, and deploy it the same way as with source
