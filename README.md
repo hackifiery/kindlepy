@@ -30,5 +30,3 @@ This installs it to /mnt/us/python. If you chose a different path and want to in
 Now, you can just add `/mnt/us/python/bin` to your PATH and run `python3.14` from there.
 ### 6. Setup pip
 Just run `setup-pip.sh` (from the kindle) and you're done. if it is successful, you can delete it safely.
-## How to use the binaries
-If you're lazy (like me) and don't want to set up a cross-toolchain and all, go to the releases page, extract the archive, and deploy it the same way as with source
