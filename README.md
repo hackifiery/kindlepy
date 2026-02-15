@@ -1,3 +1,4 @@
+# NOTICE: moved to [here](https://github.com/hackifiery/kindledev)
 # kindlepy: scripts to get python 3.14 on a kindle paperwhite 3
 It does just that.
 ## Prereqs
